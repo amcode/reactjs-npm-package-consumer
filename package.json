@@ -1,0 +1,30 @@
+{
+  "name": "reactjs-npm-package-consumer",
+  "version": "1.0.0",
+  "description": "ReactJS Consumer app that uses the NPM package projects",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amcode/reactjs-npm-package-consumer.git"
+  },
+  "author": "Allan Muller",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/amcode/reactjs-npm-package-consumer/issues"
+  },
+  "homepage": "https://github.com/amcode/reactjs-npm-package-consumer#readme",
+  "dependencies": {
+    "babel-loader": "^6.2.4",
+    "babel-preset-es2015": "^6.13.2",
+    "babel-preset-react": "^6.11.1",
+    "npm-package-shell": "git+ssh://git@github.com/amcode/npm-package-shell.git",
+    "npm-package-shell-typescript": "git+ssh://git@github.com/amcode/npm-package-shell-typescript.git",
+    "npm-package-shell-typescript-namespaces": "git+ssh://git@github.com/amcode/npm-package-shell-typescript-namespaces.git",
+    "react": "^15.3.0",
+    "react-dom": "^15.3.0",
+    "webpack": "^1.13.1"
+  }
+}
